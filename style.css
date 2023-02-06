@@ -1,0 +1,404 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+.box {
+    display: flexbox;
+}
+
+.contact-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+.h1 {
+    position: absolute;
+    width: 71px;
+    height: 19px;
+    left: 315px;
+    top: 71px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #03A9F4;
+    }
+    
+    .h2 {
+    position: absolute;
+    width: 89px;
+    height: 19px;
+    left: 485px;
+    top: 71px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D7D7D;
+    }
+    
+    .h3 {
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left: 674px;
+    top: 71px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D7D7D;
+    }
+    
+    .h4 {
+    position: absolute;
+    width: 52px;
+    height: 19px;
+    left: 818px;
+    top: 71px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D7D7D;
+    }
+    
+    
+    .photo {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 148px;
+    top: 182px;
+    }
+    
+    .slovo {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 148px;
+    top: 524px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #B4AD9E;
+    }
+    
+    .slovo2 {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 633px;
+    top: 524px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    }
+    
+    .slovo3 {
+    position: absolute;
+    width: 408px;
+    height: 40px;
+    left: 148px;
+    top: 572px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+    }
+    
+    .slovo4 {
+    position: absolute;
+    width: 379px;
+    height: 40px;
+    left: 633px;
+    top: 572px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+    }
+    
+    .slovo5 {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 148px;
+    top: 652px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    }
+    
+    .slovo6 {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 633px;
+    top: 652px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    }
+    
+    /* фото кофе */
+    .photo1 {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 633px;
+    top: 182px;
+    }
+    
+    .photo2 {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 147px;
+    top: 858px;
+    }
+    
+    .photo3 {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 633px;
+    top: 858px;
+    background: url(4.png);
+    }
+    
+    .slovo7 {
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 148px;
+    top: 1170px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    }
+    
+    .slovo8 {
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 633px;
+    top: 1170px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    }
+    
+    .slovo9 {
+    position: absolute;
+    width: 225px;
+    height: 40px;
+    left: 148px;
+    top: 1218px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+    }
+    
+    .slovo10 {
+    position: absolute;
+    width: 324px;
+    height: 40px;
+    left: 633px;
+    top: 1218px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+    }
+    
+    .slovo11 {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 148px;
+    top: 1298px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    }
+    
+    .slovo12 {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 633px;
+    top: 1298px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    }
+    
+    .photo4 {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    left: 149px;
+    top: 1500px;
+    background: url(1.png);
+    }
+    
+    .photo5 {
+    position: absolute;
+    width: 419px;
+    height: 280px;
+    left: 633px;
+    top: 1504px;
+    background: url(2.png);
+    }
+    
+    .slovo13 {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 149px;
+    top: 1812px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    }
+    
+    .slovo14 {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 632px;
+    top: 1816px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    }
+    
+    .slovo15 {
+    position: absolute;
+    width: 321px;
+    height: 40px;
+    left: 149px;
+    top: 1860px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+    }
+    
+    .slovo16 {
+    position: absolute;
+    width: 226px;
+    height: 40px;
+    left: 632px;
+    top: 1864px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+    }
+    
+    .slovo17 {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 149px;
+    top: 1940px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    }
+    
+    .slovo18 {
+    position: absolute;
+    width: 420px;
+    height: 76px;
+    left: 632px;
+    top: 1944px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    }
+    
+    .knopka {
+    width: 165px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #626262;
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    left: 49px;
+    top: 20px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    }
