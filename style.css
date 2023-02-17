@@ -1,404 +1,611 @@
-.nav {
-    display: flex;
-    align-items: center;
+.slovo1 {
+    /* WebStudio */
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
 }
 
-.list {
-    display: flex;
+.slovo2 {
+position: absolute;
+width: 45px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.slovo3 {
+position: absolute;
+width: 72px;
+height: 16px;
+left: 548px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
 }
 
-.box {
-    display: flexbox;
+.slovo4 {
+position: absolute;
+width: 64px;
+height: 16px;
+left: 670px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
 }
 
-.contact-buttons {
-    display: flex;
-    align-items: center;
+.pojta {
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
 }
 
-.contacts-item:not(:last-child) {
-    margin-right: 10px;
+.nomer {
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
 }
 
+.slovo5 {
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 275px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: black;
+}
 
-.h1 {
+.knopka {
+position: absolute;
+width: 152px;
+height: 30px;
+left: 100px;
+top: 440px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+position: absolute;
+width: 216px;
+height: 50px;
+left: 650px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.slovo6 {
+position: absolute;
+width: 270px;
+height: 16px;
+left: 215px;
+top: 774px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.slovo7 {
+position: absolute;
+width: 270px;
+height: 72px;
+left: 215px;
+top: 800px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+.slovo8 {
+position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 774px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.slovo9 {
+position: absolute;
+width: 270px;
+height: 48px;
+left: 515px;
+top: 800px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.slovo10 {
+position: absolute;
+width: 270px;
+height: 16px;
+left: 815px;
+top: 774px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.slovo11 {
+position: absolute;
+width: 270px;
+height: 48px;
+left: 815px;
+top: 800px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.slovo12 {
     position: absolute;
-    width: 71px;
-    height: 19px;
-    left: 315px;
-    top: 71px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #03A9F4;
-    }
-    
-    .h2 {
+width: 270px;
+height: 16px;
+left: 1115px;
+top: 774px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.slovo13 {
     position: absolute;
-    width: 89px;
-    height: 19px;
-    left: 485px;
-    top: 71px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #7D7D7D;
-    }
-    
-    .h3 {
+width: 270px;
+height: 72px;
+left: 1115px;
+top: 800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.slovo14 {
+position: absolute;
+width: 366px;
+height: 42px;
+left: 617px;
+top: 875px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.img {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1058px;
+background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+mix-blend-mode: normal;
+}
+
+.img1 {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1058px;
+background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+
+.img2 {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1058px;
+background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+.slovo15 {
     position: absolute;
-    width: 44px;
-    height: 19px;
-    left: 674px;
-    top: 71px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #7D7D7D;
-    }
-    
-    .h4 {
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1540px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.img3 {
+position: absolute;
+width: 270px;
+height: 260px;
+left: 215px;
+top: 1632px;
+background: url(4853.jpg);
+border-radius: 0px;
+}
+
+.slovo16 {
     position: absolute;
-    width: 52px;
-    height: 19px;
-    left: 818px;
-    top: 71px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #7D7D7D;
-    }
-    
-    
-    .photo {
+width: 129px;
+height: 19px;
+left: 286px;
+top: 1922px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.slovo17 {
+position: absolute;
+width: 130px;
+height: 19px;
+left: 285px;
+top: 1990px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.img4 {
     position: absolute;
-    width: 420px;
-    height: 280px;
-    left: 148px;
-    top: 182px;
-    }
-    
-    .slovo {
+width: 270px;
+height: 260px;
+left: 515px;
+top: 1632px;
+
+background: url(5844.jpg);
+border-radius: 0px;
+}
+
+.slovo18 {
     position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 148px;
-    top: 524px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;    
-    color: #B4AD9E;
-    }
-    
-    .slovo2 {
+width: 104px;
+height: 19px;
+left: 598px;
+top: 1922px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.slovo19 {
     position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 633px;
-    top: 524px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #B4AD9E;
-    }
-    
-    .slovo3 {
+width: 147px;
+height: 19px;
+left: 577px;
+top: 1990px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.img5 {
     position: absolute;
-    width: 408px;
-    height: 40px;
-    left: 148px;
-    top: 572px;
-    
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #626262;
-    }
-    
-    .slovo4 {
+width: 270px;
+height: 260px;
+left: 815px;
+top: 1632px;
+
+background: url(16166.jpg);
+border-radius: 0px;
+}
+
+.slovo20 {
     position: absolute;
-    width: 379px;
-    height: 40px;
-    left: 633px;
-    top: 572px;
-    
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #626262;
-    }
-    
-    .slovo5 {
+width: 130px;
+height: 19px;
+left: 885px;
+top: 1922px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.slovo21 {
     position: absolute;
-    width: 420px;
-    height: 76px;
-    left: 148px;
-    top: 652px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #626262;
-    }
-    
-    .slovo6 {
+width: 76px;
+height: 19px;
+left: 912px;
+top: 1990px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.img6 {
     position: absolute;
-    width: 420px;
-    height: 76px;
-    left: 633px;
-    top: 652px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #626262;
-    }
-    
-    /* фото кофе */
-    .photo1 {
+width: 270px;
+height: 260px;
+left: 1115px;
+top: 1632px;
+
+background: url(2968.jpg);
+border-radius: 0px;
+}
+
+.slovo22 {
     position: absolute;
-    width: 420px;
-    height: 280px;
-    left: 633px;
-    top: 182px;
-    }
-    
-    .photo2 {
+width: 145px;
+height: 19px;
+left: 1178px;
+top: 1922px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.slovo23 {
     position: absolute;
-    width: 420px;
-    height: 280px;
-    left: 147px;
-    top: 858px;
-    }
-    
-    .photo3 {
+width: 87px;
+height: 19px;
+left: 1207px;
+top: 1990px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.slovo24 {
     position: absolute;
-    width: 420px;
-    height: 280px;
-    left: 633px;
-    top: 858px;
-    background: url(4.png);
-    }
-    
-    .slovo7 {
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2154px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+
+.slovo25 {
     position: absolute;
-    width: 86px;
-    height: 16px;
-    left: 148px;
-    top: 1170px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #B4AD9E;
-    }
-    
-    .slovo8 {
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2205px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: black;
+}
+
+.pojta1 {
     position: absolute;
-    width: 86px;
-    height: 16px;
-    left: 633px;
-    top: 1170px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #B4AD9E;
-    }
-    
-    .slovo9 {
+width: 136px;
+height: 21px;
+left: 215px;
+top: 2235px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.nomer1 {
     position: absolute;
-    width: 225px;
-    height: 40px;
-    left: 148px;
-    top: 1218px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #626262;
-    }
-    
-    .slovo10 {
-    position: absolute;
-    width: 324px;
-    height: 40px;
-    left: 633px;
-    top: 1218px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #626262;
-    }
-    
-    .slovo11 {
-    position: absolute;
-    width: 420px;
-    height: 76px;
-    left: 148px;
-    top: 1298px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #626262;
-    }
-    
-    .slovo12 {
-    position: absolute;
-    width: 420px;
-    height: 76px;
-    left: 633px;
-    top: 1298px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #626262;
-    }
-    
-    .photo4 {
-    position: absolute;
-    width: 420px;
-    height: 280px;
-    left: 149px;
-    top: 1500px;
-    background: url(1.png);
-    }
-    
-    .photo5 {
-    position: absolute;
-    width: 419px;
-    height: 280px;
-    left: 633px;
-    top: 1504px;
-    background: url(2.png);
-    }
-    
-    .slovo13 {
-    position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 149px;
-    top: 1812px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #B4AD9E;
-    }
-    
-    .slovo14 {
-    position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 632px;
-    top: 1816px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #B4AD9E;
-    }
-    
-    .slovo15 {
-    position: absolute;
-    width: 321px;
-    height: 40px;
-    left: 149px;
-    top: 1860px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #626262;
-    }
-    
-    .slovo16 {
-    position: absolute;
-    width: 226px;
-    height: 40px;
-    left: 632px;
-    top: 1864px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #626262;
-    }
-    
-    .slovo17 {
-    position: absolute;
-    width: 420px;
-    height: 76px;
-    left: 149px;
-    top: 1940px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #626262;
-    }
-    
-    .slovo18 {
-    position: absolute;
-    width: 420px;
-    height: 76px;
-    left: 632px;
-    top: 1944px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #626262;
-    }
-    
-    .knopka {
-    width: 165px;
-    height: 60px;
-    left: 0px;
-    top: 0px;
-    border: 1px solid #626262;
-    position: absolute;
-    width: 68px;
-    height: 19px;
-    left: 49px;
-    top: 20px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #626262;
-    }
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2265px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
